@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style_prev.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="menu">
+      <div id="top_menu"></div>
+      <div id="bot_menu">
+
+      </div>
+    </div>
+    <div id="content">
+      <div id="div_contHead">
+        <label id="label_name">welches dann halt</label>
+      </div>
+      <div id="content_menu">
+        <div id="content_menuA">description</div>
+        <div id="content_menuB">media</div>
+      </div>
+      <div id="div_text">
+        <div id="div_description">
+          main description deutsch: <br>
+          <textarea id="desc_head_ger" class="desc_head"></textarea>
+          <textarea id="desc_body_ger" class="desc_body"></textarea>
+        </div>
+        <div id="div_description_tra">
+          main description english: <br>
+          <textarea id="desc_head_eng" class="desc_head"></textarea>
+          <textarea id="desc_body_eng" class="desc_body"></textarea>
+        </div>
+        <div id="div_preview">
+          <div id="prev_ger" class="prev_text">
+            <h3 id="header_ger" class="prev_header"></h3>
+            <p id="body_ger" class="prev_body"></p>
+            <a id = "sub_ger1" class="asubmenu" onclick="showSubmenu()"></a>
+            <p id="sub_content_ger1" class="psubmenu"></p>  
+          </div>
+          <div id="prev_eng" class="prev_text">
+            <h3 id="header_eng" class="prev_header"></h3>
+            <p id="body_eng" class="prev_body"></p>
+            <a id = "sub_eng1" class="asubmenu" onclick="showSubmenu()"></a>
+            <p id="sub_content_eng1" class="psubmenu"></p>  
+          </div>
+        </div>  
+      </div>
+      <div id="submenu" class="submenu"></div>
+    </div>
+    <div id="sidebar">
+      <div id="controls">
+        <input type="checkbox" class="desc_prev" />Preview
+      </div>  
+    </div>
+  </div>
+</body>
+</html>

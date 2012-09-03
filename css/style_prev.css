@@ -1,0 +1,45 @@
+.desc_prev {
+  
+}
+#div_preview {
+  text-align: left; 
+  width: 800px;
+  height: auto;
+  margin: 20px 0 0 27px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 4px 4px 15px #aaa;
+  background-color: #fffadd;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  font-family: serif;
+}
+.prev_text {
+  width: 370px;
+  height: auto;
+  margin: 15px;
+  float: left;
+  background-color: white;
+}
+.prev_header {
+  width: 330px;
+  height: 20px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.prev_body {
+  width: 330px;
+  height: auto;
+  margin-left: 15px;
+  font-style: italic;
+  font-size: 12px;
+}
+#header_eng {
+  color: #999;
+}
+#body_eng {
+  color: #999;
+}
