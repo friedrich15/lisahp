@@ -2,17 +2,44 @@
 <html>
 <head>
   <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/style_prev.css">
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/menu_script.js"></script>
+
 </head>
 <body>
   <div id="main">
     <div id="menu">
-      <div id="top_menu"></div>
+      <div id="top_menu">
+        <h3>lisa truttmann</h3>
+        <ul class="menu_list" id='main_list'>
+          <li>now</li>
+          <li>contact</li>
+          <li>about</li>
+        </ul>
+      </div>
       <div id="bot_menu">
-
+        <h3>projects</h3>
+        <ul class="menu_list" id='work_list'>
+          <li>goldjungen</li>
+          <li>carnaval</li>
+          <li>übungen zum balanceakt</li>
+          <li>raumfransen</li>
+          <li>vicinity</li>               
+        </ul>
+        <div id="bottom_menu">
+          <div title="create new project" id="add_work" onclick="addWork()">
+          </div>
+          <div title="move selected project up" id="move_up">
+          </div>
+          <div title="move selected project down" id="move_down">
+        </div>
+          <div title="delete selected project" id="del_work">
+          </div>
+        </div>
       </div>
     </div>
     <div id="content">
